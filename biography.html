@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		
+		<script src="assets/js/jstricks.js"></script>
 	</head>
 	<body>
 
@@ -80,17 +80,14 @@
 						</div>
 					</div>
 						
-			    <div id="new-header">
-				<script>
-				    $("#new-header").load("menu.html");
-				</script>
-			    </div>
+				<script>HTMLImporter.import("menu.html");</script>
 				
 
 			</div>
 	
 
 		<!-- Scripts -->
+			<script src="assets/js/jstricks.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
