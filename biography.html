@@ -15,18 +15,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		
-	<portlet:renderURL var="energyFormUrl">
-	    <portlet:param name="mvcPath" value="menu.html"/>
-	    </portlet:renderURL>
-	    <script> 
-		$(function(){
-		    var ctx="<%=request.getContextPath()%>";
-		    alert(ctx);
-		      $("#energyForm").load("${energyFormUrl}"); 
-		});
-
-	    </script> 		
-		
 	</head>
 	<body>
 
@@ -92,10 +80,42 @@
 						</div>
 					</div>
 						
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<section>
+								<center> <img src="images/MLTD.jpg" height="250" width="250" alt="" /> <br /> </center>
+								<center> <strong><h2>Lam M. Nguyen</h2></strong> </center>
+								<center> (Nguyễn Minh Lâm) </center>
+							</section>
 
-						
-				<div id="energyForm">
-						
+							<!-- Menu -->
+								<nav id="menu">
+
+									<ul>      
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="profile.html">Profile</a></li>
+										<li><a href="research.html">Research</a></li>
+										<li><a href="talk.html">Talks</a></li>
+										<li><a href="collaborator.html">Collaborators</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<li>
+											<span class="opener">Others</span>
+											<ul>
+												<li><a href="gallery.html">Gallery</a></li>
+											</ul>
+										</li>										
+
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<img src="http://hitwebcounter.com/counter/counter.php?page=6699486&amp;style=0008&amp;nbdigits=5&amp;type=ip&amp;initCount=375" title="web page hit counters codes Free" Alt="web page hit counters codes Free" border="0"> <br />
+								</section>
+
+						</div>
+					</div>
 				
 
 			</div>
